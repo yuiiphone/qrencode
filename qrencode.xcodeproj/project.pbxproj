@@ -6,143 +6,92 @@
 	objectVersion = 45;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		7725B3C810E2E2E9007FABBC /* qrencode (Universal) */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 7725B3D710E2E30D007FABBC /* Build configuration list for PBXAggregateTarget "qrencode (Universal)" */;
-			buildPhases = (
-				7725B3DE10E2E369007FABBC /* ShellScript */,
-			);
-			dependencies = (
-				7725B3CE10E2E2F2007FABBC /* PBXTargetDependency */,
-				7725B3CC10E2E2EF007FABBC /* PBXTargetDependency */,
-			);
-			name = "qrencode (Universal)";
-			productName = "qrencode (Universal)";
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		7725B34310E2DA4D007FABBC /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 7725B30B10E2DA4D007FABBC /* bitstream.c */; };
-		7725B34410E2DA4D007FABBC /* bitstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B30C10E2DA4D007FABBC /* bitstream.h */; };
-		7725B34510E2DA4D007FABBC /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = 7725B31610E2DA4D007FABBC /* mask.c */; };
-		7725B34610E2DA4D007FABBC /* mask.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B31710E2DA4D007FABBC /* mask.h */; };
-		7725B34A10E2DA4D007FABBC /* qrencode_inner.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B31F10E2DA4D007FABBC /* qrencode_inner.h */; };
-		7725B34B10E2DA4D007FABBC /* qrinput.c in Sources */ = {isa = PBXBuildFile; fileRef = 7725B32010E2DA4D007FABBC /* qrinput.c */; };
-		7725B34C10E2DA4D007FABBC /* qrinput.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B32110E2DA4D007FABBC /* qrinput.h */; };
-		7725B34D10E2DA4D007FABBC /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = 7725B32210E2DA4D007FABBC /* qrspec.c */; };
-		7725B34E10E2DA4D007FABBC /* qrspec.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B32310E2DA4D007FABBC /* qrspec.h */; };
-		7725B34F10E2DA4D007FABBC /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = 7725B32510E2DA4D007FABBC /* rscode.c */; };
-		7725B35010E2DA4D007FABBC /* rscode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B32610E2DA4D007FABBC /* rscode.h */; };
-		7725B35110E2DA4D007FABBC /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = 7725B32710E2DA4D007FABBC /* split.c */; };
-		7725B35210E2DA4D007FABBC /* split.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B32810E2DA4D007FABBC /* split.h */; };
-		7725B36310E2DBBC007FABBC /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B36210E2DBBC007FABBC /* config.h */; };
-		7725B38310E2DE34007FABBC /* bitstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B30C10E2DA4D007FABBC /* bitstream.h */; };
-		7725B38410E2DE34007FABBC /* mask.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B31710E2DA4D007FABBC /* mask.h */; };
-		7725B38510E2DE34007FABBC /* qrencode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B31C10E2DA4D007FABBC /* qrencode.h */; settings = {ATTRIBUTES = (); }; };
-		7725B38610E2DE34007FABBC /* qrencode_inner.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B31F10E2DA4D007FABBC /* qrencode_inner.h */; };
-		7725B38710E2DE34007FABBC /* qrinput.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B32110E2DA4D007FABBC /* qrinput.h */; };
-		7725B38810E2DE34007FABBC /* qrspec.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B32310E2DA4D007FABBC /* qrspec.h */; };
-		7725B38910E2DE34007FABBC /* rscode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B32610E2DA4D007FABBC /* rscode.h */; };
-		7725B38A10E2DE34007FABBC /* split.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B32810E2DA4D007FABBC /* split.h */; };
-		7725B38B10E2DE34007FABBC /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B36210E2DBBC007FABBC /* config.h */; };
-		7725B38D10E2DE34007FABBC /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 7725B30B10E2DA4D007FABBC /* bitstream.c */; };
-		7725B38E10E2DE34007FABBC /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = 7725B31610E2DA4D007FABBC /* mask.c */; };
-		7725B38F10E2DE34007FABBC /* qrinput.c in Sources */ = {isa = PBXBuildFile; fileRef = 7725B32010E2DA4D007FABBC /* qrinput.c */; };
-		7725B39010E2DE34007FABBC /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = 7725B32210E2DA4D007FABBC /* qrspec.c */; };
-		7725B39110E2DE34007FABBC /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = 7725B32510E2DA4D007FABBC /* rscode.c */; };
-		7725B39210E2DE34007FABBC /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = 7725B32710E2DA4D007FABBC /* split.c */; };
-		7725B3E410E2E7A8007FABBC /* qrencode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B31C10E2DA4D007FABBC /* qrencode.h */; settings = {ATTRIBUTES = (); }; };
-		7725B3E510E2E7AD007FABBC /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 7725B31B10E2DA4D007FABBC /* qrencode.c */; };
-		7725B3EA10E2E7FE007FABBC /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 7725B31B10E2DA4D007FABBC /* qrencode.c */; };
+		77880F4810E35FDB00982F46 /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 77880F1010E35FDB00982F46 /* bitstream.c */; };
+		77880F4910E35FDB00982F46 /* bitstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 77880F1110E35FDB00982F46 /* bitstream.h */; };
+		77880F4A10E35FDB00982F46 /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = 77880F1B10E35FDB00982F46 /* mask.c */; };
+		77880F4B10E35FDB00982F46 /* mask.h in Headers */ = {isa = PBXBuildFile; fileRef = 77880F1C10E35FDB00982F46 /* mask.h */; };
+		77880F4D10E35FDB00982F46 /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 77880F2010E35FDB00982F46 /* qrencode.c */; };
+		77880F4E10E35FDB00982F46 /* qrencode.h in Headers */ = {isa = PBXBuildFile; fileRef = 77880F2110E35FDB00982F46 /* qrencode.h */; };
+		77880F4F10E35FDB00982F46 /* qrencode_inner.h in Headers */ = {isa = PBXBuildFile; fileRef = 77880F2410E35FDB00982F46 /* qrencode_inner.h */; };
+		77880F5010E35FDB00982F46 /* qrinput.c in Sources */ = {isa = PBXBuildFile; fileRef = 77880F2510E35FDB00982F46 /* qrinput.c */; };
+		77880F5110E35FDB00982F46 /* qrinput.h in Headers */ = {isa = PBXBuildFile; fileRef = 77880F2610E35FDB00982F46 /* qrinput.h */; };
+		77880F5210E35FDB00982F46 /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = 77880F2710E35FDB00982F46 /* qrspec.c */; };
+		77880F5310E35FDB00982F46 /* qrspec.h in Headers */ = {isa = PBXBuildFile; fileRef = 77880F2810E35FDB00982F46 /* qrspec.h */; };
+		77880F5410E35FDB00982F46 /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = 77880F2A10E35FDB00982F46 /* rscode.c */; };
+		77880F5510E35FDB00982F46 /* rscode.h in Headers */ = {isa = PBXBuildFile; fileRef = 77880F2B10E35FDB00982F46 /* rscode.h */; };
+		77880F5610E35FDB00982F46 /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = 77880F2C10E35FDB00982F46 /* split.c */; };
+		77880F5710E35FDB00982F46 /* split.h in Headers */ = {isa = PBXBuildFile; fileRef = 77880F2D10E35FDB00982F46 /* split.h */; };
+		77880F6510E35FE100982F46 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 77880F6410E35FE100982F46 /* config.h */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		7725B3CB10E2E2EF007FABBC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = "qrencode (arm6 arm7)";
-		};
-		7725B3CD10E2E2F2007FABBC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7725B38110E2DE34007FABBC;
-			remoteInfo = "qrencode (i386 x86_64)";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		7725B30810E2DA4D007FABBC /* acinclude.m4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = acinclude.m4; sourceTree = "<group>"; };
-		7725B30910E2DA4D007FABBC /* aclocal.m4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aclocal.m4; sourceTree = "<group>"; };
-		7725B30A10E2DA4D007FABBC /* autogen.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = autogen.sh; sourceTree = "<group>"; };
-		7725B30B10E2DA4D007FABBC /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
-		7725B30C10E2DA4D007FABBC /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
-		7725B30D10E2DA4D007FABBC /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
-		7725B30E10E2DA4D007FABBC /* config.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.h.in; sourceTree = "<group>"; };
-		7725B30F10E2DA4D007FABBC /* configure */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = configure; sourceTree = "<group>"; };
-		7725B31010E2DA4D007FABBC /* configure.ac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = configure.ac; sourceTree = "<group>"; };
-		7725B31110E2DA4D007FABBC /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
-		7725B31210E2DA4D007FABBC /* Doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doxyfile; sourceTree = "<group>"; };
-		7725B31310E2DA4D007FABBC /* libqrencode.pc.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libqrencode.pc.in; sourceTree = "<group>"; };
-		7725B31410E2DA4D007FABBC /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		7725B31510E2DA4D007FABBC /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
-		7725B31610E2DA4D007FABBC /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mask.c; sourceTree = "<group>"; };
-		7725B31710E2DA4D007FABBC /* mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mask.h; sourceTree = "<group>"; };
-		7725B31810E2DA4D007FABBC /* NEWS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
-		7725B31910E2DA4D007FABBC /* qrenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrenc.c; sourceTree = "<group>"; };
-		7725B31A10E2DA4D007FABBC /* qrencode.1.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = qrencode.1.in; sourceTree = "<group>"; };
-		7725B31B10E2DA4D007FABBC /* qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrencode.c; sourceTree = "<group>"; };
-		7725B31C10E2DA4D007FABBC /* qrencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrencode.h; sourceTree = "<group>"; };
-		7725B31D10E2DA4D007FABBC /* qrencode.spec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = qrencode.spec; sourceTree = "<group>"; };
-		7725B31E10E2DA4D007FABBC /* qrencode.spec.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = qrencode.spec.in; sourceTree = "<group>"; };
-		7725B31F10E2DA4D007FABBC /* qrencode_inner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrencode_inner.h; sourceTree = "<group>"; };
-		7725B32010E2DA4D007FABBC /* qrinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrinput.c; sourceTree = "<group>"; };
-		7725B32110E2DA4D007FABBC /* qrinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrinput.h; sourceTree = "<group>"; };
-		7725B32210E2DA4D007FABBC /* qrspec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrspec.c; sourceTree = "<group>"; };
-		7725B32310E2DA4D007FABBC /* qrspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrspec.h; sourceTree = "<group>"; };
-		7725B32410E2DA4D007FABBC /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		7725B32510E2DA4D007FABBC /* rscode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rscode.c; sourceTree = "<group>"; };
-		7725B32610E2DA4D007FABBC /* rscode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rscode.h; sourceTree = "<group>"; };
-		7725B32710E2DA4D007FABBC /* split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = split.c; sourceTree = "<group>"; };
-		7725B32810E2DA4D007FABBC /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
-		7725B32A10E2DA4D007FABBC /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
-		7725B32B10E2DA4D007FABBC /* create_frame_pattern.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = create_frame_pattern.c; sourceTree = "<group>"; };
-		7725B32C10E2DA4D007FABBC /* frame */ = {isa = PBXFileReference; lastKnownFileType = file; path = frame; sourceTree = "<group>"; };
-		7725B32D10E2DA4D007FABBC /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		7725B32E10E2DA4D007FABBC /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
-		7725B32F10E2DA4D007FABBC /* prof_qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prof_qrencode.c; sourceTree = "<group>"; };
-		7725B33010E2DA4D007FABBC /* test_all.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = test_all.sh; sourceTree = "<group>"; };
-		7725B33110E2DA4D007FABBC /* test_bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_bitstream.c; sourceTree = "<group>"; };
-		7725B33210E2DA4D007FABBC /* test_estimatebit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_estimatebit.c; sourceTree = "<group>"; };
-		7725B33310E2DA4D007FABBC /* test_monkey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_monkey.c; sourceTree = "<group>"; };
-		7725B33410E2DA4D007FABBC /* test_qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_qrencode.c; sourceTree = "<group>"; };
-		7725B33510E2DA4D007FABBC /* test_qrinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_qrinput.c; sourceTree = "<group>"; };
-		7725B33610E2DA4D007FABBC /* test_qrspec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_qrspec.c; sourceTree = "<group>"; };
-		7725B33710E2DA4D007FABBC /* test_rs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_rs.c; sourceTree = "<group>"; };
-		7725B33810E2DA4D007FABBC /* test_split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_split.c; sourceTree = "<group>"; };
-		7725B33910E2DA4D007FABBC /* view_qrcode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = view_qrcode.c; sourceTree = "<group>"; };
-		7725B33A10E2DA4D007FABBC /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
-		7725B33C10E2DA4D007FABBC /* compile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = compile; sourceTree = "<group>"; };
-		7725B33D10E2DA4D007FABBC /* config.guess */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = config.guess; sourceTree = "<group>"; };
-		7725B33E10E2DA4D007FABBC /* config.sub */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = config.sub; sourceTree = "<group>"; };
-		7725B33F10E2DA4D007FABBC /* depcomp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = depcomp; sourceTree = "<group>"; };
-		7725B34010E2DA4D007FABBC /* install-sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "install-sh"; sourceTree = "<group>"; };
-		7725B34110E2DA4D007FABBC /* ltmain.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ltmain.sh; sourceTree = "<group>"; };
-		7725B34210E2DA4D007FABBC /* missing */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = missing; sourceTree = "<group>"; };
-		7725B36210E2DBBC007FABBC /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
-		7725B39610E2DE34007FABBC /* libqrencode_iphonesimulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libqrencode_iphonesimulator.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2AAC07E0554694100DB518D /* libqrencode_iphoneos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libqrencode_iphoneos.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		77880F0D10E35FDB00982F46 /* acinclude.m4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = acinclude.m4; sourceTree = "<group>"; };
+		77880F0E10E35FDB00982F46 /* aclocal.m4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aclocal.m4; sourceTree = "<group>"; };
+		77880F0F10E35FDB00982F46 /* autogen.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = autogen.sh; sourceTree = "<group>"; };
+		77880F1010E35FDB00982F46 /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
+		77880F1110E35FDB00982F46 /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
+		77880F1210E35FDB00982F46 /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		77880F1310E35FDB00982F46 /* config.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.h.in; sourceTree = "<group>"; };
+		77880F1410E35FDB00982F46 /* configure */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = configure; sourceTree = "<group>"; };
+		77880F1510E35FDB00982F46 /* configure.ac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = configure.ac; sourceTree = "<group>"; };
+		77880F1610E35FDB00982F46 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		77880F1710E35FDB00982F46 /* Doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doxyfile; sourceTree = "<group>"; };
+		77880F1810E35FDB00982F46 /* libqrencode.pc.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libqrencode.pc.in; sourceTree = "<group>"; };
+		77880F1910E35FDB00982F46 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		77880F1A10E35FDB00982F46 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		77880F1B10E35FDB00982F46 /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mask.c; sourceTree = "<group>"; };
+		77880F1C10E35FDB00982F46 /* mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mask.h; sourceTree = "<group>"; };
+		77880F1D10E35FDB00982F46 /* NEWS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
+		77880F1E10E35FDB00982F46 /* qrenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrenc.c; sourceTree = "<group>"; };
+		77880F1F10E35FDB00982F46 /* qrencode.1.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = qrencode.1.in; sourceTree = "<group>"; };
+		77880F2010E35FDB00982F46 /* qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrencode.c; sourceTree = "<group>"; };
+		77880F2110E35FDB00982F46 /* qrencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrencode.h; sourceTree = "<group>"; };
+		77880F2210E35FDB00982F46 /* qrencode.spec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = qrencode.spec; sourceTree = "<group>"; };
+		77880F2310E35FDB00982F46 /* qrencode.spec.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = qrencode.spec.in; sourceTree = "<group>"; };
+		77880F2410E35FDB00982F46 /* qrencode_inner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrencode_inner.h; sourceTree = "<group>"; };
+		77880F2510E35FDB00982F46 /* qrinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrinput.c; sourceTree = "<group>"; };
+		77880F2610E35FDB00982F46 /* qrinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrinput.h; sourceTree = "<group>"; };
+		77880F2710E35FDB00982F46 /* qrspec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrspec.c; sourceTree = "<group>"; };
+		77880F2810E35FDB00982F46 /* qrspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrspec.h; sourceTree = "<group>"; };
+		77880F2910E35FDB00982F46 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		77880F2A10E35FDB00982F46 /* rscode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rscode.c; sourceTree = "<group>"; };
+		77880F2B10E35FDB00982F46 /* rscode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rscode.h; sourceTree = "<group>"; };
+		77880F2C10E35FDB00982F46 /* split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = split.c; sourceTree = "<group>"; };
+		77880F2D10E35FDB00982F46 /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
+		77880F2F10E35FDB00982F46 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		77880F3010E35FDB00982F46 /* create_frame_pattern.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = create_frame_pattern.c; sourceTree = "<group>"; };
+		77880F3110E35FDB00982F46 /* frame */ = {isa = PBXFileReference; lastKnownFileType = file; path = frame; sourceTree = "<group>"; };
+		77880F3210E35FDB00982F46 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		77880F3310E35FDB00982F46 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		77880F3410E35FDB00982F46 /* prof_qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prof_qrencode.c; sourceTree = "<group>"; };
+		77880F3510E35FDB00982F46 /* test_all.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = test_all.sh; sourceTree = "<group>"; };
+		77880F3610E35FDB00982F46 /* test_bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_bitstream.c; sourceTree = "<group>"; };
+		77880F3710E35FDB00982F46 /* test_estimatebit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_estimatebit.c; sourceTree = "<group>"; };
+		77880F3810E35FDB00982F46 /* test_monkey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_monkey.c; sourceTree = "<group>"; };
+		77880F3910E35FDB00982F46 /* test_qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_qrencode.c; sourceTree = "<group>"; };
+		77880F3A10E35FDB00982F46 /* test_qrinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_qrinput.c; sourceTree = "<group>"; };
+		77880F3B10E35FDB00982F46 /* test_qrspec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_qrspec.c; sourceTree = "<group>"; };
+		77880F3C10E35FDB00982F46 /* test_rs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_rs.c; sourceTree = "<group>"; };
+		77880F3D10E35FDB00982F46 /* test_split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_split.c; sourceTree = "<group>"; };
+		77880F3E10E35FDB00982F46 /* view_qrcode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = view_qrcode.c; sourceTree = "<group>"; };
+		77880F3F10E35FDB00982F46 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		77880F4110E35FDB00982F46 /* compile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = compile; sourceTree = "<group>"; };
+		77880F4210E35FDB00982F46 /* config.guess */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = config.guess; sourceTree = "<group>"; };
+		77880F4310E35FDB00982F46 /* config.sub */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = config.sub; sourceTree = "<group>"; };
+		77880F4410E35FDB00982F46 /* depcomp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = depcomp; sourceTree = "<group>"; };
+		77880F4510E35FDB00982F46 /* install-sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "install-sh"; sourceTree = "<group>"; };
+		77880F4610E35FDB00982F46 /* ltmain.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ltmain.sh; sourceTree = "<group>"; };
+		77880F4710E35FDB00982F46 /* missing */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = missing; sourceTree = "<group>"; };
+		77880F6410E35FE100982F46 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		D2AAC07E0554694100DB518D /* libqrencode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libqrencode.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2AAC07E0554694100DB518D /* libqrencode_iphoneos.a */,
-				7725B39610E2DE34007FABBC /* libqrencode_iphonesimulator.a */,
+				D2AAC07E0554694100DB518D /* libqrencode.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,89 +99,89 @@
 		0867D691FE84028FC02AAC07 /* qrencode */ = {
 			isa = PBXGroup;
 			children = (
-				7725B36210E2DBBC007FABBC /* config.h */,
-				7725B30710E2DA4D007FABBC /* qrencode-3.1.0 */,
+				77880F6410E35FE100982F46 /* config.h */,
+				77880F0C10E35FDB00982F46 /* qrencode-3.1.0 */,
 				034768DFFF38A50411DB9C8B /* Products */,
 			);
 			name = qrencode;
 			sourceTree = "<group>";
 		};
-		7725B30710E2DA4D007FABBC /* qrencode-3.1.0 */ = {
+		77880F0C10E35FDB00982F46 /* qrencode-3.1.0 */ = {
 			isa = PBXGroup;
 			children = (
-				7725B30810E2DA4D007FABBC /* acinclude.m4 */,
-				7725B30910E2DA4D007FABBC /* aclocal.m4 */,
-				7725B30A10E2DA4D007FABBC /* autogen.sh */,
-				7725B30B10E2DA4D007FABBC /* bitstream.c */,
-				7725B30C10E2DA4D007FABBC /* bitstream.h */,
-				7725B30D10E2DA4D007FABBC /* ChangeLog */,
-				7725B30E10E2DA4D007FABBC /* config.h.in */,
-				7725B30F10E2DA4D007FABBC /* configure */,
-				7725B31010E2DA4D007FABBC /* configure.ac */,
-				7725B31110E2DA4D007FABBC /* COPYING */,
-				7725B31210E2DA4D007FABBC /* Doxyfile */,
-				7725B31310E2DA4D007FABBC /* libqrencode.pc.in */,
-				7725B31410E2DA4D007FABBC /* Makefile.am */,
-				7725B31510E2DA4D007FABBC /* Makefile.in */,
-				7725B31610E2DA4D007FABBC /* mask.c */,
-				7725B31710E2DA4D007FABBC /* mask.h */,
-				7725B31810E2DA4D007FABBC /* NEWS */,
-				7725B31910E2DA4D007FABBC /* qrenc.c */,
-				7725B31A10E2DA4D007FABBC /* qrencode.1.in */,
-				7725B31B10E2DA4D007FABBC /* qrencode.c */,
-				7725B31C10E2DA4D007FABBC /* qrencode.h */,
-				7725B31D10E2DA4D007FABBC /* qrencode.spec */,
-				7725B31E10E2DA4D007FABBC /* qrencode.spec.in */,
-				7725B31F10E2DA4D007FABBC /* qrencode_inner.h */,
-				7725B32010E2DA4D007FABBC /* qrinput.c */,
-				7725B32110E2DA4D007FABBC /* qrinput.h */,
-				7725B32210E2DA4D007FABBC /* qrspec.c */,
-				7725B32310E2DA4D007FABBC /* qrspec.h */,
-				7725B32410E2DA4D007FABBC /* README */,
-				7725B32510E2DA4D007FABBC /* rscode.c */,
-				7725B32610E2DA4D007FABBC /* rscode.h */,
-				7725B32710E2DA4D007FABBC /* split.c */,
-				7725B32810E2DA4D007FABBC /* split.h */,
-				7725B32910E2DA4D007FABBC /* tests */,
-				7725B33A10E2DA4D007FABBC /* TODO */,
-				7725B33B10E2DA4D007FABBC /* use */,
+				77880F0D10E35FDB00982F46 /* acinclude.m4 */,
+				77880F0E10E35FDB00982F46 /* aclocal.m4 */,
+				77880F0F10E35FDB00982F46 /* autogen.sh */,
+				77880F1010E35FDB00982F46 /* bitstream.c */,
+				77880F1110E35FDB00982F46 /* bitstream.h */,
+				77880F1210E35FDB00982F46 /* ChangeLog */,
+				77880F1310E35FDB00982F46 /* config.h.in */,
+				77880F1410E35FDB00982F46 /* configure */,
+				77880F1510E35FDB00982F46 /* configure.ac */,
+				77880F1610E35FDB00982F46 /* COPYING */,
+				77880F1710E35FDB00982F46 /* Doxyfile */,
+				77880F1810E35FDB00982F46 /* libqrencode.pc.in */,
+				77880F1910E35FDB00982F46 /* Makefile.am */,
+				77880F1A10E35FDB00982F46 /* Makefile.in */,
+				77880F1B10E35FDB00982F46 /* mask.c */,
+				77880F1C10E35FDB00982F46 /* mask.h */,
+				77880F1D10E35FDB00982F46 /* NEWS */,
+				77880F1E10E35FDB00982F46 /* qrenc.c */,
+				77880F1F10E35FDB00982F46 /* qrencode.1.in */,
+				77880F2010E35FDB00982F46 /* qrencode.c */,
+				77880F2110E35FDB00982F46 /* qrencode.h */,
+				77880F2210E35FDB00982F46 /* qrencode.spec */,
+				77880F2310E35FDB00982F46 /* qrencode.spec.in */,
+				77880F2410E35FDB00982F46 /* qrencode_inner.h */,
+				77880F2510E35FDB00982F46 /* qrinput.c */,
+				77880F2610E35FDB00982F46 /* qrinput.h */,
+				77880F2710E35FDB00982F46 /* qrspec.c */,
+				77880F2810E35FDB00982F46 /* qrspec.h */,
+				77880F2910E35FDB00982F46 /* README */,
+				77880F2A10E35FDB00982F46 /* rscode.c */,
+				77880F2B10E35FDB00982F46 /* rscode.h */,
+				77880F2C10E35FDB00982F46 /* split.c */,
+				77880F2D10E35FDB00982F46 /* split.h */,
+				77880F2E10E35FDB00982F46 /* tests */,
+				77880F3F10E35FDB00982F46 /* TODO */,
+				77880F4010E35FDB00982F46 /* use */,
 			);
 			path = "qrencode-3.1.0";
 			sourceTree = "<group>";
 		};
-		7725B32910E2DA4D007FABBC /* tests */ = {
+		77880F2E10E35FDB00982F46 /* tests */ = {
 			isa = PBXGroup;
 			children = (
-				7725B32A10E2DA4D007FABBC /* common.h */,
-				7725B32B10E2DA4D007FABBC /* create_frame_pattern.c */,
-				7725B32C10E2DA4D007FABBC /* frame */,
-				7725B32D10E2DA4D007FABBC /* Makefile.am */,
-				7725B32E10E2DA4D007FABBC /* Makefile.in */,
-				7725B32F10E2DA4D007FABBC /* prof_qrencode.c */,
-				7725B33010E2DA4D007FABBC /* test_all.sh */,
-				7725B33110E2DA4D007FABBC /* test_bitstream.c */,
-				7725B33210E2DA4D007FABBC /* test_estimatebit.c */,
-				7725B33310E2DA4D007FABBC /* test_monkey.c */,
-				7725B33410E2DA4D007FABBC /* test_qrencode.c */,
-				7725B33510E2DA4D007FABBC /* test_qrinput.c */,
-				7725B33610E2DA4D007FABBC /* test_qrspec.c */,
-				7725B33710E2DA4D007FABBC /* test_rs.c */,
-				7725B33810E2DA4D007FABBC /* test_split.c */,
-				7725B33910E2DA4D007FABBC /* view_qrcode.c */,
+				77880F2F10E35FDB00982F46 /* common.h */,
+				77880F3010E35FDB00982F46 /* create_frame_pattern.c */,
+				77880F3110E35FDB00982F46 /* frame */,
+				77880F3210E35FDB00982F46 /* Makefile.am */,
+				77880F3310E35FDB00982F46 /* Makefile.in */,
+				77880F3410E35FDB00982F46 /* prof_qrencode.c */,
+				77880F3510E35FDB00982F46 /* test_all.sh */,
+				77880F3610E35FDB00982F46 /* test_bitstream.c */,
+				77880F3710E35FDB00982F46 /* test_estimatebit.c */,
+				77880F3810E35FDB00982F46 /* test_monkey.c */,
+				77880F3910E35FDB00982F46 /* test_qrencode.c */,
+				77880F3A10E35FDB00982F46 /* test_qrinput.c */,
+				77880F3B10E35FDB00982F46 /* test_qrspec.c */,
+				77880F3C10E35FDB00982F46 /* test_rs.c */,
+				77880F3D10E35FDB00982F46 /* test_split.c */,
+				77880F3E10E35FDB00982F46 /* view_qrcode.c */,
 			);
 			path = tests;
 			sourceTree = "<group>";
 		};
-		7725B33B10E2DA4D007FABBC /* use */ = {
+		77880F4010E35FDB00982F46 /* use */ = {
 			isa = PBXGroup;
 			children = (
-				7725B33C10E2DA4D007FABBC /* compile */,
-				7725B33D10E2DA4D007FABBC /* config.guess */,
-				7725B33E10E2DA4D007FABBC /* config.sub */,
-				7725B33F10E2DA4D007FABBC /* depcomp */,
-				7725B34010E2DA4D007FABBC /* install-sh */,
-				7725B34110E2DA4D007FABBC /* ltmain.sh */,
-				7725B34210E2DA4D007FABBC /* missing */,
+				77880F4110E35FDB00982F46 /* compile */,
+				77880F4210E35FDB00982F46 /* config.guess */,
+				77880F4310E35FDB00982F46 /* config.sub */,
+				77880F4410E35FDB00982F46 /* depcomp */,
+				77880F4510E35FDB00982F46 /* install-sh */,
+				77880F4610E35FDB00982F46 /* ltmain.sh */,
+				77880F4710E35FDB00982F46 /* missing */,
 			);
 			path = use;
 			sourceTree = "<group>";
@@ -240,60 +189,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7725B38210E2DE34007FABBC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7725B38B10E2DE34007FABBC /* config.h in Headers */,
-				7725B38510E2DE34007FABBC /* qrencode.h in Headers */,
-				7725B38610E2DE34007FABBC /* qrencode_inner.h in Headers */,
-				7725B38710E2DE34007FABBC /* qrinput.h in Headers */,
-				7725B38310E2DE34007FABBC /* bitstream.h in Headers */,
-				7725B38810E2DE34007FABBC /* qrspec.h in Headers */,
-				7725B38910E2DE34007FABBC /* rscode.h in Headers */,
-				7725B38A10E2DE34007FABBC /* split.h in Headers */,
-				7725B38410E2DE34007FABBC /* mask.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D2AAC07A0554694100DB518D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7725B36310E2DBBC007FABBC /* config.h in Headers */,
-				7725B3E410E2E7A8007FABBC /* qrencode.h in Headers */,
-				7725B34A10E2DA4D007FABBC /* qrencode_inner.h in Headers */,
-				7725B34C10E2DA4D007FABBC /* qrinput.h in Headers */,
-				7725B34410E2DA4D007FABBC /* bitstream.h in Headers */,
-				7725B34E10E2DA4D007FABBC /* qrspec.h in Headers */,
-				7725B35010E2DA4D007FABBC /* rscode.h in Headers */,
-				7725B35210E2DA4D007FABBC /* split.h in Headers */,
-				7725B34610E2DA4D007FABBC /* mask.h in Headers */,
+				77880F6510E35FE100982F46 /* config.h in Headers */,
+				77880F4E10E35FDB00982F46 /* qrencode.h in Headers */,
+				77880F4F10E35FDB00982F46 /* qrencode_inner.h in Headers */,
+				77880F5110E35FDB00982F46 /* qrinput.h in Headers */,
+				77880F4910E35FDB00982F46 /* bitstream.h in Headers */,
+				77880F5310E35FDB00982F46 /* qrspec.h in Headers */,
+				77880F5510E35FDB00982F46 /* rscode.h in Headers */,
+				77880F5710E35FDB00982F46 /* split.h in Headers */,
+				77880F4B10E35FDB00982F46 /* mask.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7725B38110E2DE34007FABBC /* qrencode (i386 x86_64) */ = {
+		D2AAC07D0554694100DB518D /* qrencode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7725B39310E2DE34007FABBC /* Build configuration list for PBXNativeTarget "qrencode (i386 x86_64)" */;
-			buildPhases = (
-				7725B38210E2DE34007FABBC /* Headers */,
-				7725B38C10E2DE34007FABBC /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "qrencode (i386 x86_64)";
-			productName = qrencode;
-			productReference = 7725B39610E2DE34007FABBC /* libqrencode_iphonesimulator.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		D2AAC07D0554694100DB518D /* qrencode (arm6 arm7) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "qrencode (arm6 arm7)" */;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "qrencode" */;
 			buildPhases = (
 				D2AAC07A0554694100DB518D /* Headers */,
 				D2AAC07B0554694100DB518D /* Sources */,
@@ -302,9 +219,9 @@
 			);
 			dependencies = (
 			);
-			name = "qrencode (arm6 arm7)";
+			name = qrencode;
 			productName = qrencode;
-			productReference = D2AAC07E0554694100DB518D /* libqrencode_iphoneos.a */;
+			productReference = D2AAC07E0554694100DB518D /* libqrencode.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -320,72 +237,27 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2AAC07D0554694100DB518D /* qrencode (arm6 arm7) */,
-				7725B38110E2DE34007FABBC /* qrencode (i386 x86_64) */,
-				7725B3C810E2E2E9007FABBC /* qrencode (Universal) */,
+				D2AAC07D0554694100DB518D /* qrencode */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		7725B3DE10E2E369007FABBC /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		7725B38C10E2DE34007FABBC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7725B3EA10E2E7FE007FABBC /* qrencode.c in Sources */,
-				7725B38F10E2DE34007FABBC /* qrinput.c in Sources */,
-				7725B38D10E2DE34007FABBC /* bitstream.c in Sources */,
-				7725B39010E2DE34007FABBC /* qrspec.c in Sources */,
-				7725B39110E2DE34007FABBC /* rscode.c in Sources */,
-				7725B39210E2DE34007FABBC /* split.c in Sources */,
-				7725B38E10E2DE34007FABBC /* mask.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D2AAC07B0554694100DB518D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7725B3E510E2E7AD007FABBC /* qrencode.c in Sources */,
-				7725B34B10E2DA4D007FABBC /* qrinput.c in Sources */,
-				7725B34310E2DA4D007FABBC /* bitstream.c in Sources */,
-				7725B34D10E2DA4D007FABBC /* qrspec.c in Sources */,
-				7725B34F10E2DA4D007FABBC /* rscode.c in Sources */,
-				7725B35110E2DA4D007FABBC /* split.c in Sources */,
-				7725B34510E2DA4D007FABBC /* mask.c in Sources */,
+				77880F4D10E35FDB00982F46 /* qrencode.c in Sources */,
+				77880F5010E35FDB00982F46 /* qrinput.c in Sources */,
+				77880F4810E35FDB00982F46 /* bitstream.c in Sources */,
+				77880F5210E35FDB00982F46 /* qrspec.c in Sources */,
+				77880F5410E35FDB00982F46 /* rscode.c in Sources */,
+				77880F5610E35FDB00982F46 /* split.c in Sources */,
+				77880F4A10E35FDB00982F46 /* mask.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7725B3CC10E2E2EF007FABBC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D2AAC07D0554694100DB518D /* qrencode (arm6 arm7) */;
-			targetProxy = 7725B3CB10E2E2EF007FABBC /* PBXContainerItemProxy */;
-		};
-		7725B3CE10E2E2F2007FABBC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7725B38110E2DE34007FABBC /* qrencode (i386 x86_64) */;
-			targetProxy = 7725B3CD10E2E2F2007FABBC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1DEB921F08733DC00010E9CD /* Debug */ = {
@@ -394,17 +266,14 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				COPY_PHASE_STRIP = NO;
-				DSTROOT = "/tmp/$(PROJECT_NAME)_$(PLATFORM_NAME).dst";
+				DSTROOT = /tmp/qrencode.dst;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
 				INSTALL_PATH = /usr/local/lib;
-				PRODUCT_NAME = "$(PROJECT_NAME)_$(PLATFORM_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				VALID_ARCHS = "armv6 armv7";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = qrencode;
 			};
 			name = Debug;
 		};
@@ -413,14 +282,11 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
-				DSTROOT = "/tmp/$(PROJECT_NAME)_$(PLATFORM_NAME).dst";
+				DSTROOT = /tmp/qrencode.dst;
 				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
 				INSTALL_PATH = /usr/local/lib;
-				PRODUCT_NAME = "$(PROJECT_NAME)_$(PLATFORM_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				VALID_ARCHS = "armv6 armv7";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = qrencode;
 			};
 			name = Release;
 		};
@@ -435,7 +301,6 @@
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
 				SDKROOT = iphoneos3.1.2;
-				VALID_ARCHS = "armv6 armv7";
 			};
 			name = Debug;
 		};
@@ -449,91 +314,13 @@
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
 				SDKROOT = iphoneos3.1.2;
-				VALID_ARCHS = "armv6 armv7";
-			};
-			name = Release;
-		};
-		7725B39410E2DE34007FABBC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					i386,
-					x86_64,
-				);
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = "/tmp/$(PROJECT_NAME)_$(PLATFORM_NAME).dst";
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
-				INSTALL_PATH = /usr/local/lib;
-				PRODUCT_NAME = "$(PROJECT_NAME)_$(PLATFORM_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphonesimulator3.1.2;
-				VALID_ARCHS = "i386 x86_64";
-			};
-			name = Debug;
-		};
-		7725B39510E2DE34007FABBC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					i386,
-					x86_64,
-				);
-				DSTROOT = "/tmp/$(PROJECT_NAME)_$(PLATFORM_NAME).dst";
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
-				INSTALL_PATH = /usr/local/lib;
-				PRODUCT_NAME = "$(PROJECT_NAME)_$(PLATFORM_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphonesimulator3.1.2;
-				VALID_ARCHS = "i386 x86_64";
-			};
-			name = Release;
-		};
-		7725B3C910E2E2E9007FABBC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_UNIVERSAL_IPHONE_OS)",
-					i386,
-					x86_64,
-				);
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = qrencode;
-				VALID_ARCHS = "armv6 armv7 i386 x86_64";
-			};
-			name = Debug;
-		};
-		7725B3CA10E2E2E9007FABBC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_UNIVERSAL_IPHONE_OS)",
-					i386,
-					x86_64,
-				);
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				PRODUCT_NAME = qrencode;
-				VALID_ARCHS = "armv6 armv7 i386 x86_64";
-				ZERO_LINK = NO;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "qrencode (arm6 arm7)" */ = {
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "qrencode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB921F08733DC00010E9CD /* Debug */,
@@ -547,24 +334,6 @@
 			buildConfigurations = (
 				1DEB922308733DC00010E9CD /* Debug */,
 				1DEB922408733DC00010E9CD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7725B39310E2DE34007FABBC /* Build configuration list for PBXNativeTarget "qrencode (i386 x86_64)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7725B39410E2DE34007FABBC /* Debug */,
-				7725B39510E2DE34007FABBC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7725B3D710E2E30D007FABBC /* Build configuration list for PBXAggregateTarget "qrencode (Universal)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7725B3C910E2E2E9007FABBC /* Debug */,
-				7725B3CA10E2E2E9007FABBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

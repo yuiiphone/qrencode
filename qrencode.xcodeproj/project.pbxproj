@@ -39,7 +39,7 @@
 		7725B36310E2DBBC007FABBC /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B36210E2DBBC007FABBC /* config.h */; };
 		7725B38310E2DE34007FABBC /* bitstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B30C10E2DA4D007FABBC /* bitstream.h */; };
 		7725B38410E2DE34007FABBC /* mask.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B31710E2DA4D007FABBC /* mask.h */; };
-		7725B38510E2DE34007FABBC /* qrencode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B31C10E2DA4D007FABBC /* qrencode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7725B38510E2DE34007FABBC /* qrencode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B31C10E2DA4D007FABBC /* qrencode.h */; settings = {ATTRIBUTES = (); }; };
 		7725B38610E2DE34007FABBC /* qrencode_inner.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B31F10E2DA4D007FABBC /* qrencode_inner.h */; };
 		7725B38710E2DE34007FABBC /* qrinput.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B32110E2DA4D007FABBC /* qrinput.h */; };
 		7725B38810E2DE34007FABBC /* qrspec.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B32310E2DA4D007FABBC /* qrspec.h */; };
@@ -52,7 +52,7 @@
 		7725B39010E2DE34007FABBC /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = 7725B32210E2DA4D007FABBC /* qrspec.c */; };
 		7725B39110E2DE34007FABBC /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = 7725B32510E2DA4D007FABBC /* rscode.c */; };
 		7725B39210E2DE34007FABBC /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = 7725B32710E2DA4D007FABBC /* split.c */; };
-		7725B3E410E2E7A8007FABBC /* qrencode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B31C10E2DA4D007FABBC /* qrencode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7725B3E410E2E7A8007FABBC /* qrencode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7725B31C10E2DA4D007FABBC /* qrencode.h */; settings = {ATTRIBUTES = (); }; };
 		7725B3E510E2E7AD007FABBC /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 7725B31B10E2DA4D007FABBC /* qrencode.c */; };
 		7725B3EA10E2E7FE007FABBC /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 7725B31B10E2DA4D007FABBC /* qrencode.c */; };
 /* End PBXBuildFile section */

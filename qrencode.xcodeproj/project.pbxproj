@@ -14,8 +14,8 @@
 				7725B3DE10E2E369007FABBC /* ShellScript */,
 			);
 			dependencies = (
-				7725B3CC10E2E2EF007FABBC /* PBXTargetDependency */,
 				7725B3CE10E2E2F2007FABBC /* PBXTargetDependency */,
+				7725B3CC10E2E2EF007FABBC /* PBXTargetDependency */,
 			);
 			name = "qrencode (Universal)";
 			productName = "qrencode (Universal)";
@@ -435,7 +435,7 @@
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
 				SDKROOT = iphoneos3.1.2;
-				VALID_ARCHS = "armv6 armv7 i386";
+				VALID_ARCHS = "armv6 armv7";
 			};
 			name = Debug;
 		};
@@ -449,7 +449,7 @@
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
 				SDKROOT = iphoneos3.1.2;
-				VALID_ARCHS = "armv6 armv7 i386";
+				VALID_ARCHS = "armv6 armv7";
 			};
 			name = Release;
 		};

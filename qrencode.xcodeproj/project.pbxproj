@@ -101,7 +101,7 @@
 		7715EDD7112F4B52004E608D /* install-sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "install-sh"; sourceTree = "<group>"; };
 		7715EDD8112F4B52004E608D /* ltmain.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ltmain.sh; sourceTree = "<group>"; };
 		7715EDD9112F4B52004E608D /* missing */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = missing; sourceTree = "<group>"; };
-		7715EE2A112F4B7F004E608D /* libqrencode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libqrencode.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7715EE2A112F4B7F004E608D /* libqrencode-3.1.1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libqrencode-3.1.1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77880F0D10E35FDB00982F46 /* acinclude.m4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = acinclude.m4; sourceTree = "<group>"; };
 		77880F0E10E35FDB00982F46 /* aclocal.m4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aclocal.m4; sourceTree = "<group>"; };
 		77880F0F10E35FDB00982F46 /* autogen.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = autogen.sh; sourceTree = "<group>"; };
@@ -160,15 +160,15 @@
 		77880F4610E35FDB00982F46 /* ltmain.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ltmain.sh; sourceTree = "<group>"; };
 		77880F4710E35FDB00982F46 /* missing */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = missing; sourceTree = "<group>"; };
 		77880F6410E35FE100982F46 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
-		D2AAC07E0554694100DB518D /* libqrencode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libqrencode.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AAC07E0554694100DB518D /* libqrencode-3.1.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libqrencode-3.1.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2AAC07E0554694100DB518D /* libqrencode.a */,
-				7715EE2A112F4B7F004E608D /* libqrencode.a */,
+				7715EE2A112F4B7F004E608D /* libqrencode-3.1.1.a */,
+				D2AAC07E0554694100DB518D /* libqrencode-3.1.0.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,8 +177,8 @@
 			isa = PBXGroup;
 			children = (
 				77880F6410E35FE100982F46 /* config.h */,
-				77880F0C10E35FDB00982F46 /* qrencode-3.1.0 */,
 				7715ED9E112F4B52004E608D /* qrencode-3.1.1 */,
+				77880F0C10E35FDB00982F46 /* qrencode-3.1.0 */,
 				034768DFFF38A50411DB9C8B /* Products */,
 			);
 			name = qrencode;
@@ -397,7 +397,7 @@
 			);
 			name = "qrencode-3.1.1";
 			productName = qrencode;
-			productReference = 7715EE2A112F4B7F004E608D /* libqrencode.a */;
+			productReference = 7715EE2A112F4B7F004E608D /* libqrencode-3.1.1.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		D2AAC07D0554694100DB518D /* qrencode-3.1.0 */ = {
@@ -413,7 +413,7 @@
 			);
 			name = "qrencode-3.1.0";
 			productName = qrencode;
-			productReference = D2AAC07E0554694100DB518D /* libqrencode.a */;
+			productReference = D2AAC07E0554694100DB518D /* libqrencode-3.1.0.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -429,8 +429,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2AAC07D0554694100DB518D /* qrencode-3.1.0 */,
 				7715EDF8112F4B7F004E608D /* qrencode-3.1.1 */,
+				D2AAC07D0554694100DB518D /* qrencode-3.1.0 */,
 			);
 		};
 /* End PBXProject section */
@@ -480,7 +480,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INSTALL_PATH = /usr/local/lib;
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = qrencode;
+				PRODUCT_NAME = "qrencode-3.1.0";
 			};
 			name = Debug;
 		};
@@ -493,7 +493,7 @@
 				GCC_MODEL_TUNING = G5;
 				INSTALL_PATH = /usr/local/lib;
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = qrencode;
+				PRODUCT_NAME = "qrencode-3.1.0";
 			};
 			name = Release;
 		};
@@ -507,7 +507,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.1.2;
+				SDKROOT = iphoneos3.1.3;
 			};
 			name = Debug;
 		};
@@ -520,7 +520,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.1.2;
+				SDKROOT = iphoneos3.1.3;
 			};
 			name = Release;
 		};
@@ -537,7 +537,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INSTALL_PATH = /usr/local/lib;
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = qrencode;
+				PRODUCT_NAME = "qrencode-3.1.1";
 			};
 			name = Debug;
 		};
@@ -550,7 +550,7 @@
 				GCC_MODEL_TUNING = G5;
 				INSTALL_PATH = /usr/local/lib;
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = qrencode;
+				PRODUCT_NAME = "qrencode-3.1.1";
 			};
 			name = Release;
 		};
